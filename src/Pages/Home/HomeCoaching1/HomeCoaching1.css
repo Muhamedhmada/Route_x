@@ -1,0 +1,131 @@
+.homeCoaching1-container{
+  width: 85%;
+  margin: auto;
+  padding: 100px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.homeCoaching1-container .info{
+  display: flex;
+  justify-content: space-between;
+}
+.homeCoaching1-container .info .header{
+  display: flex;
+  flex-direction: column;
+  flex-direction: 10px;
+}
+.homeCoaching1-container .info .header span{
+  color: var(--secondary-color-color);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.homeCoaching1-container .info .header h1{
+  color: var(--secondary-color);
+}
+.homeCoaching1-container .info .next-prev{
+  /* flex: 1; */
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  align-self: flex-end;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+.homeCoaching1-container .info .next-prev .next,
+.homeCoaching1-container .info .next-prev .prev{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid var(--six-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+.homeCoaching1-container .info .next-prev .next:hover,
+.homeCoaching1-container .info .next-prev .prev:hover{
+  background-color: var(--third-color);
+  border: var(--third-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cards */
+.homeCoaching1-container .cards{
+  display: flex;
+  justify-content: space-between;
+}
+.homeCoaching1-container .cards .card{
+  width: calc(98%/3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.homeCoaching1-container .cards .card .image img{
+  border-radius: 20px;
+  width: 100%;
+}
+.homeCoaching1-container .cards .card .info{
+  background-color: var(--fourth-color);
+  color: var(--secondary-color);
+  height: 160px;
+  padding: 30px;
+  padding-right: 50px;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 20px;
+  top: -80px;
+}
+.homeCoaching1-container .cards .card .info .header{
+  flex: 1;
+}
+.homeCoaching1-container .cards .card .info p{
+  color: var(--fifth-color);
+}
+.homeCoaching1-container .cards .card .info .icon{
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid var(--six-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

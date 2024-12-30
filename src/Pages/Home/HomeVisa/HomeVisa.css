@@ -1,0 +1,21 @@
+.homeVisa-container{
+  padding: 30px 0;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+}
+.homeVisa-container .header{
+  width: 50%;
+  min-width: 300px;
+  color: var(--secondary-color);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.homeVisa-container .header span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

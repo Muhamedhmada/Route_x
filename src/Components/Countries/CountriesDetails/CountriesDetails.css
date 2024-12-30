@@ -1,0 +1,20 @@
+.countriesDetails-container .content{
+  width: 85%;
+  padding: 100px 30px;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+}
+.countriesDetails-container .content .one{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.countriesDetails-container .content .one >div{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.countriesDetails-container .content aside{
+  width: 400px;
+}

@@ -1,0 +1,51 @@
+.visaPageCards-container .cards{
+  width: 90%;
+  margin: auto;
+  padding: 100px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.visaPageCards-container .cards .card{
+  width: calc(100%/2 - 20px);
+  min-width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  gap: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.visaPageCards-container .cards .card >.image img{
+  width: 258px;
+  height: 251px;
+  border-radius: 20px;
+}
+.visaPageCards-container .cards .card .desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.visaPageCards-container .cards .card .desc h3{
+  color: var(--secondary-color);
+}
+.visaPageCards-container .cards .card .desc p{
+  color: var(--fifth-color);
+}
+.visaPageCards-container .cards .card .desc .images{
+  display: flex;
+  justify-content: space-between;
+}
+.visaPageCards-container .cards .card .desc .images .icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.visaPageCardsCard-container .cards .card .desc .images .image img{
+  width: 100%;
+}

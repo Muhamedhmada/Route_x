@@ -1,0 +1,178 @@
+.footer-container{
+  background-color: var(--secondary-color);
+  background-image: url('../../Assets/Images/footer.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+}
+
+/* Add an overlay if required */
+.footer-container::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.background-container > * {
+  position: relative;
+  /* z-index: 2; Bring the content above the overlay */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-container .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-container .content >div{
+  width: 85%;
+  padding: 30px;
+  margin: auto;
+}
+.footer-container .content >span{
+  height: 1px;
+  width: 100%;
+  background-color: var(--six-color);
+}
+
+
+/* one */
+
+.footer-container .content .one {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .content .one>div{
+  color: var(--fourth-color);
+  width: 45%;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 20px;
+}
+.footer-container .content .one>div h2{
+  width: 60%;
+}
+.footer-container .content .one>div .icon{
+  height: fit-content;
+  align-self: flex-start;
+  justify-self: flex-start;
+  background-color: var(--third-color);
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 50%;
+  display: flex;
+   align-items: center;
+  justify-content: center; 
+}
+.footer-container .content .one>div .icon img{
+  width: 40px;
+  height: 40px;
+  /* width: fit-content; */
+  /* height: fit-content; */
+}
+
+/* two */
+
+.footer-container .content .two{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .content .two ul{
+  width: 25%;
+  color: var(--fourth-color);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-container .content .two ul:first-child li:nth-child(3){
+  display: flex;
+  gap: 10px;
+}
+.footer-container .content .two ul li{
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.footer-container .content .two ul li:first-child{
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+
+/* copy right */
+.footer-container .content .copyRight{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .content .copyRight p{
+  color: white;
+}
+.footer-container .content .copyRight ul{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.footer-container .content .copyRight ul li{
+  color: white;
+  text-transform: capitalize;
+}
+
+
+.footer-container .content .two ul:nth-child(4) li:nth-child(3){
+  position: relative;
+}
+.footer-container .content .two ul:nth-child(4) li:nth-child(3) input{
+  background-color: black;
+  color: var(--fourth-color);
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+}
+.footer-container .content .two ul:nth-child(4) li:nth-child(3) input::placeholder{
+  color: var(--fourth-color);
+}
+.footer-container .content .two ul:nth-child(4) li:nth-child(3) .icon{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  background-color: var(--third-color);
+}

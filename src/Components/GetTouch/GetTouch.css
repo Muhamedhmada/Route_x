@@ -1,0 +1,36 @@
+.getTouch-container{
+  background-color: var(--seven-color);
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--secondary-color);
+}
+.getTouch-container h3{
+  text-transform: uppercase;
+}
+.getTouch-container .icon{
+  background-color: var(--third-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+}
+.getTouch-container .icon::after{
+  position: absolute;
+  /* z-index: -1; */
+  content: "";
+  width: 105%;
+  height: 105%;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid var(--third-color);
+}

@@ -1,0 +1,144 @@
+.teamsDetails-container .details-container{
+  width: 85%;
+  margin: auto;
+  padding: 100px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.teamsDetails-container .details-container .one{
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 100px;
+}
+.teamsDetails-container .details-container .one .image{
+  width: 400px;
+  height: 400px;
+}
+.teamsDetails-container .details-container .one .image img{
+  width: 100%;
+  height: 100%;
+  width: 400px;
+  height: 400px;
+}
+.teamsDetails-container .details-container .one .info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.teamsDetails-container .details-container .one .info h1,
+.teamsDetails-container .details-container .two h2
+{
+  color: var(--secondary-color);
+}
+.teamsDetails-container .details-container p{
+  color: var(--fifth-color);
+  position: relative;
+}
+.teamsDetails-container .details-container .one .info .in{
+  display: flex;
+  gap: 10px;
+}
+.teamsDetails-container .details-container .two{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* three */
+.teamsDetails-container .details-container .three{
+  display: flex;
+  gap: 50px;
+}
+.teamsDetails-container .details-container .three .skills{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.teamsDetails-container .details-container .three .skills .skill{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.teamsDetails-container .details-container .three .skills .skill >div{
+  display: flex;
+  justify-content: space-between;
+}
+.teamsDetails-container .details-container .three .skills .skill .rate{
+  width: 100%;
+  height:8px ;
+  border-radius: 5px;
+  background-color: var(--six-color);
+  position: relative;
+}
+.teamsDetails-container .details-container .three .skills .skill .rate:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  background-color: var(--third-color);
+  border-radius: 5px;
+}
+.teamsDetails-container .details-container .three .skills .skill:nth-child(2) .rate:nth-child(2):after{
+  width: 70%;
+}
+.teamsDetails-container .details-container .three .skills .skill:nth-child(3) .rate:nth-child(2):after{
+  width: 60%;
+}
+.teamsDetails-container .details-container .three .skills .skill:nth-child(4) .rate:nth-child(2):after{
+  width: 50%;
+}
+.teamsDetails-container .details-container .three .form{
+  padding: 20px;
+  border-radius: 20px;
+  flex: 1;
+  background-color: #f1f5eb;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.teamsDetails-container .details-container .three .form p,
+.teamsDetails-container .details-container .three .form h2{
+  color: var(--secondary-color) !important;
+}
+.teamsDetails-container .details-container .three .form .twoInput{
+  display: flex;
+  flex-wrap:wrap ;
+  gap: 20px;
+}
+.teamsDetails-container .details-container .three .form .twoInput input{
+  height: 50px;
+  border-radius: 20px;
+
+}
+.teamsDetails-container .details-container .three .form input::placeholder,
+.teamsDetails-container .details-container .three .form textarea::placeholder{
+  color: var(--fifth-color);
+}
+.teamsDetails-container .details-container .three .form input,
+.teamsDetails-container .details-container .three .form textarea{
+  background-color: white;
+  color: var(--fifth-color);
+  padding: 20px;
+}
+.teamsDetails-container .details-container .three .form textarea{
+  height: 167px !important;
+  border-radius: 20px;
+  resize: none;
+}
+.teamsDetails-container .details-container .three .form .btns{
+  display: flex;
+  justify-content: space-between;
+}
+.teamsDetails-container .details-container .three .form .btns button{
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.teamsDetails-container .details-container .three .form .btns button:nth-child(2){
+  border-radius: 30px;
+  background-color: var(--third-color);
+  color: var(--fourth-color);
+}

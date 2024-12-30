@@ -1,0 +1,11 @@
+.upIcon{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999999999999999999999999999;
+
+}

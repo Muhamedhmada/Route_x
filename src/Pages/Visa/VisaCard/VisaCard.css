@@ -1,0 +1,73 @@
+.visaCard-container{
+  padding: 100px 30px;
+  /* width: 95%; */
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.visaCard-container .card{
+  width: 35%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* X=0, Y=4, Blur=4, Spread=0, Color=Black with 25% opacity */
+}
+.visaCard-container .card .image img{
+  width: 100%;
+  height: 292px;
+  border-radius: 20px 20px 0 0;
+}
+.visaCard-container .card .info{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  gap: 10px;
+}
+.visaCard-container .card .info .header{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  min-width: 300px;
+}
+.visaCard-container .card .info .header h3{
+  color: var(--secondary-color);
+}
+.visaCard-container .card .info span{
+  color: var(--secondary-color);
+  font-size: 22px;
+  line-height: 30px;
+  padding: 15px;
+  border: 1px solid var(--six-color);
+  border-radius: 10px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+.visaCard-container .card .info p{
+  color: var(--fifth-color);
+}
+.visaCard-container .card .info button{
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  border: 1px solid var(--third-color);
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: bold;
+  align-self: flex-start;
+  border-radius: 30px;
+  font-weight: bold;
+  transition-duration: .3s;
+}
+.visaCard-container .card .info button:hover{
+  background-color: var(--third-color);
+}

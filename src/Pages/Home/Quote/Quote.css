@@ -1,0 +1,72 @@
+.quote-container{
+  padding: 100px 30px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  color: var(--fourth-color);
+}
+.quote-container >.image{
+  /* flex: 2; */
+  width: 60%;
+  height: 600px;
+}
+.quote-container >.image img{
+  /* flex: ; */
+  width: 100%;
+  /* width: 500px; */
+  height: 100%;
+  border-radius: 20px;
+}
+.quote-container .quote{
+  flex: 3;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.quote-container .quote >p{
+  font-size: 30px;
+  line-height: 50px;
+}
+.quote-container .quote .header{
+  display: flex;
+  gap: 20px;
+}
+.quote-container .quote .header img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.quote-container .quote .header .personInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.quote-container .quote .btns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.quote-container .quote .btns .line{
+  flex: 1;
+  height: 1px;
+  width: 100%;
+  background-color: var(--fourth-color);
+}
+.quote-container .quote .btns .left , 
+.quote-container .quote .btns .right{
+  background-color: var(--fourth-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

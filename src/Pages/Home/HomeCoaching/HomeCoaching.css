@@ -1,0 +1,97 @@
+.homeCoaching-container{
+  background-image:url('../../../Assets/Images/homeCoaching.png') ;
+  background-color: var(--fourth-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 95%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 50px;
+  position: relative;
+}
+.homeCoaching-container::before {
+  content: '';
+  position: absolute;
+  border-radius: 50px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* White overlay with opacity */
+  z-index: 1;
+}
+
+.homeCoaching-content{
+  z-index: 99999;
+  position: relative;
+  width: 85%;
+  margin: auto;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.homeCoaching-content .header{
+  width: 50%;
+  color: var(--secondary-color);
+}
+.homeCoaching-content .header span{
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1.4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.homeCoaching-container .homeCoaching-content .info{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 50px;
+}
+.homeCoaching-container .homeCoaching-content .info .cards{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.homeCoaching-container .homeCoaching-content .info .cards .card{
+  background-color: var(--fourth-color);
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--six-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.homeCoaching-container .homeCoaching-content .info .cards .card .header{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+  color: var(--secondary-color);
+}
+.homeCoaching-container .homeCoaching-content .info .cards .card .icon{
+  width: 60px;
+  height: 60px;
+  background-color: var(--third-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeCoaching-container .homeCoaching-content .info .image{
+  width: 480px;
+  height: 450px;
+}
+.homeCoaching-container .homeCoaching-content .info .image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}

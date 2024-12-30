@@ -1,0 +1,93 @@
+.bestOffer-container{
+  width: 85%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+.bestOffer-container >div:nth-child(2){
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+.bestOffer-container >div:nth-child(2) >div:first-child{
+  background-color: var(--fourth-color);
+  border-radius: 20px;
+  display: flex;
+  height: 380px;
+  overflow: hidden;
+}
+.bestOffer-container >div:nth-child(2) >div:first-child .info{
+  background-color: var(--fourth-color);
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.bestOffer-container >div:nth-child(2) >div:first-child .info:after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 200%;
+  right: -40px;
+  background-color: white;
+  transform: rotate(-10deg);
+  top: 0;
+}
+.bestOffer-container >div:nth-child(2) >div:first-child .info .icon{
+  background-color: var(--third-color);
+  width: 80px;
+  height: 80px;
+  align-self: flex-start;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bestOffer-container >div:nth-child(2) >div:first-child .info h3{
+  color: var(--secondary-color);
+}
+.bestOffer-container >div:nth-child(2) >div:first-child .info p{
+  color: var(--secondary-color);
+}
+.bestOffer-container >div:nth-child(2) >div:first-child .info button{
+  color: var(--secondary-color);
+  align-self: flex-start;
+  border: 1px solid #F1F5EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.bestOffer-container >div:nth-child(2) >div:first-child .image img{
+  height: 100%;
+  /* width: 100%; */
+  /* width:25%; */
+}
+.bestOffer-container .numbers{
+  background-color: var(--third-color);
+  height: 215px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.bestOffer-container .numbers >div{
+  width: 25%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bestOffer-container .numbers >div h1{
+  color: var(--fourth-color);
+}
+.bestOffer-container .numbers >div p{
+  color: var(--fourth-color);
+  font-size: 16px;
+  line-height: 30px;
+}

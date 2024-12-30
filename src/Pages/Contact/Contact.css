@@ -1,0 +1,10 @@
+.contact-container form input , 
+.contact-container form textarea{
+  background-color: white !important;
+  border: 0 !important;
+}
+.contact-container form input::placeholder , 
+.contact-container form textarea::placeholder  {
+  color: var(--secondary-color) !important;
+  
+}

@@ -1,0 +1,112 @@
+
+.availableCountry-container{
+  width: 85%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.availableCountry-container .info{
+  display: flex;
+  justify-content: space-between;
+}
+.availableCountry-container .info .header{
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: 10px;
+}
+.availableCountry-container .info .header span{
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.availableCountry-container .info .header h1{
+  color: var(--secondary-color);
+}
+.availableCountry-container .info .next-prev{
+  /* flex: 1; */
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  align-self: flex-end;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+.availableCountry-container .info .next-prev .next,
+.availableCountry-container .info .next-prev .prev{
+  background-color: #d4d4d4;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid var(--six-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+.availableCountry-container .info .next-prev .next:hover,
+.availableCountry-container .info .next-prev .prev:hover{
+  background-color: var(--third-color);
+  border: var(--third-color);
+}
+
+
+
+.availableCountry-container .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.availableCountry-container .cards .card{
+  width: calc(96%/4);
+  min-width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid var(--six-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.availableCountry-container .cards .card .image{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid var(--third-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.availableCountry-container .cards .card .image img{
+  border-radius: 50%;
+  border: 1px solid var(--third-color);
+  width: 70px;
+  height: 70px;
+}
+.availableCountry-container .cards .card h3{
+  color: var(--secondary-color);
+}
+.availableCountry-container .cards .card ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.availableCountry-container .cards .card li{
+  color: var(--fifth-color);
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,9 @@
+.gallaryCard-container{
+  padding: 100px 30px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

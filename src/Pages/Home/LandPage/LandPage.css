@@ -1,0 +1,90 @@
+.land-container{
+  padding: 30px;
+  width: 95%;
+  margin: auto;
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.land-container::before{
+  content: "";
+  position: absolute;
+  background-image: url('../../../Assets/Images/evil.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  /* bottom: 0; */
+  left: -70px;
+  bottom: -40px;
+}
+.land-container .content{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 0px;
+  align-items: center;
+
+}
+.land-container .content .info{
+  color: var(--fourth-color);
+  /* flex: 1; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.land-container .content .info h1{
+  font-size: 80px;
+  line-height: 90px;
+}
+.land-container .content .info .btns{
+  display: flex;
+  gap: 10px;
+}
+.land-container .content .info .btns button{
+  color: var(--fourth-color);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 5px 30px;
+}
+.land-container .content .info .btns button:first-child{
+  border: 1px solid var(--six-color);
+  border-radius: 30px;
+}
+.land-container .content .info .btns button .icon{
+  /* padding: 10px; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, .1);
+}
+.land-container .content .image{
+  position: relative;
+  /* position: relative; */
+}
+.land-container .content .image img{
+  width: 500px;
+  height: 100%;
+  height: 680px;
+  position: relative;
+  bottom: -80px;
+  z-index: 1;
+}
+.land-container .content .image::after{
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: var(--third-color);
+  right:-50px;
+  bottom: 10px;
+}

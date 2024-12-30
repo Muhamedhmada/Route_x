@@ -1,0 +1,35 @@
+.landPage-container{
+  width: 95%;
+  height: 60vh;
+  margin: auto;
+  background-color: var(--secondary-color);
+  padding: 30px;
+  position: relative;
+  border-radius: 50px;
+}
+.landPage-container .content{
+  position: absolute;
+  width: 85%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.landPage-container .content h1{
+  color: var(--fourth-color);
+  font-size: 80px;
+  line-height: 90px;
+}
+.landPage-container .content .links{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.landPage-container .content .links a{
+  color: var(--fourth-color);
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 28px;
+}

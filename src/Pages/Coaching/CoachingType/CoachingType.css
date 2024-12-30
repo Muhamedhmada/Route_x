@@ -1,0 +1,46 @@
+.coachingType-container{
+  padding: 100px 30px;
+  /* padding-bottom: 0; */
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+.coachingType-container .card{
+  width: 30%;
+  height: 248px;
+  min-width: 300px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  border-radius: 20px;
+}
+.coachingType-container .card .image img{
+  width: 100%;
+  height: 100%;
+}
+.coachingType-container .card .header{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.coachingType-container .card .header h4{
+  color: var(--secondary-color);
+}
+.coachingType-container .card .header p{
+  color: var(--fifth-color);
+}
+.coachingType-container .card .header button{
+  color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  background-color: transparent;
+  align-self: flex-start;
+}

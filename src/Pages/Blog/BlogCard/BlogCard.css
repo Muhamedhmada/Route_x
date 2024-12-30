@@ -1,0 +1,45 @@
+.blogCard-container{
+  width: 90%;
+  margin: auto;
+  padding: 100px 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.blogCard-container >.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.blogCard-container >.cards .card{
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+.blogCard-container >.cards .card .info{
+  display: flex;
+  gap: 20px;
+}
+.blogCard-container >.cards .card .info p{
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.blogCard-container >.cards .card h1{
+  color: black;
+}
+.blogCard-container >.cards .card >p{
+  color: var(--fifth-color);
+}
+.blogCard-container >.cards .card button{
+  background-color: var(--third-color);
+  color: var(--fourth-color);
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

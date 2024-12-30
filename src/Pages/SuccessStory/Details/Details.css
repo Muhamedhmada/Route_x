@@ -1,0 +1,58 @@
+.storyDetails-container .story-details{
+  padding: 100px 30px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.storyDetails-container .story-details .info{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.storyDetails-container .story-details .info h1{
+  color: var(--secondary-color);
+}
+.storyDetails-container .story-details .info p{
+  color: var(--secondary-color);
+
+}
+.storyDetails-container .story-details .info >div{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.storyDetails-container .story-details .info >div h4{
+  color: var(--secondary-color);
+}
+.storyDetails-container .story-details .info >div span{
+  color:#727272;
+}
+.storyDetails-container .story-details .info .btns{
+  margin-top: 10px;
+  display:flex;
+  gap: 10px;
+}
+.storyDetails-container .story-details .info .btns button{
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.storyDetails-container .story-details .info .btns button:last-child{
+  background-color: transparent;
+  border: 1px solid var(--third-color);
+}
+
+.storyDetails-container .story-details .image{
+  width: 40%;
+}

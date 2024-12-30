@@ -1,0 +1,27 @@
+.homeFood-container{
+  width: 95%;
+  margin:auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.homeFood-container .card{
+  width: 32%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px 30px;
+  border-radius: 20px;
+  border: 1px solid var(--six-color);
+  color: var(--secondary-color);
+}
+.homeFood-container .card .image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
